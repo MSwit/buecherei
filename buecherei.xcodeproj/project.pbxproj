@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1213BD8925128BC9006433FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BD8825128BC9006433FA /* AppDelegate.swift */; };
+		1213BD8B25128BC9006433FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BD8A25128BC9006433FA /* ContentView.swift */; };
+		1213BD8E25128BC9006433FA /* buecherei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1213BD8C25128BC9006433FA /* buecherei.xcdatamodeld */; };
+		1213BD9025128BCD006433FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1213BD8F25128BCD006433FA /* Assets.xcassets */; };
+		1213BD9325128BCD006433FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1213BD9225128BCD006433FA /* Preview Assets.xcassets */; };
+		1213BD9625128BCD006433FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1213BD9425128BCD006433FA /* Main.storyboard */; };
+		1213BDA225128BCD006433FA /* buechereiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BDA125128BCD006433FA /* buechereiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1213BD9E25128BCD006433FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1213BD7D25128BC8006433FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1213BD8425128BC8006433FA;
+			remoteInfo = buecherei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1213BD8525128BC8006433FA /* buecherei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buecherei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1213BD8825128BC9006433FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1213BD8A25128BC9006433FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1213BD8D25128BC9006433FA /* buecherei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buecherei.xcdatamodel; sourceTree = "<group>"; };
+		1213BD8F25128BCD006433FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1213BD9225128BCD006433FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1213BD9525128BCD006433FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1213BD9725128BCD006433FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1213BD9825128BCD006433FA /* buecherei.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = buecherei.entitlements; sourceTree = "<group>"; };
+		1213BD9D25128BCD006433FA /* buechereiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buechereiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1213BDA125128BCD006433FA /* buechereiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buechereiTests.swift; sourceTree = "<group>"; };
+		1213BDA325128BCD006433FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1213BD8225128BC8006433FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213BD9A25128BCD006433FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1213BD7C25128BC8006433FA = {
+			isa = PBXGroup;
+			children = (
+				1213BD8725128BC8006433FA /* buecherei */,
+				1213BDA025128BCD006433FA /* buechereiTests */,
+				1213BD8625128BC8006433FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1213BD8625128BC8006433FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1213BD8525128BC8006433FA /* buecherei.app */,
+				1213BD9D25128BCD006433FA /* buechereiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1213BD8725128BC8006433FA /* buecherei */ = {
+			isa = PBXGroup;
+			children = (
+				1213BD8825128BC9006433FA /* AppDelegate.swift */,
+				1213BD8A25128BC9006433FA /* ContentView.swift */,
+				1213BD8F25128BCD006433FA /* Assets.xcassets */,
+				1213BD9425128BCD006433FA /* Main.storyboard */,
+				1213BD9725128BCD006433FA /* Info.plist */,
+				1213BD9825128BCD006433FA /* buecherei.entitlements */,
+				1213BD8C25128BC9006433FA /* buecherei.xcdatamodeld */,
+				1213BD9125128BCD006433FA /* Preview Content */,
+			);
+			path = buecherei;
+			sourceTree = "<group>";
+		};
+		1213BD9125128BCD006433FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1213BD9225128BCD006433FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1213BDA025128BCD006433FA /* buechereiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1213BDA125128BCD006433FA /* buechereiTests.swift */,
+				1213BDA325128BCD006433FA /* Info.plist */,
+			);
+			path = buechereiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1213BD8425128BC8006433FA /* buecherei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1213BDA625128BCD006433FA /* Build configuration list for PBXNativeTarget "buecherei" */;
+			buildPhases = (
+				1213BD8125128BC8006433FA /* Sources */,
+				1213BD8225128BC8006433FA /* Frameworks */,
+				1213BD8325128BC8006433FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buecherei;
+			productName = buecherei;
+			productReference = 1213BD8525128BC8006433FA /* buecherei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1213BD9C25128BCD006433FA /* buechereiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1213BDA925128BCD006433FA /* Build configuration list for PBXNativeTarget "buechereiTests" */;
+			buildPhases = (
+				1213BD9925128BCD006433FA /* Sources */,
+				1213BD9A25128BCD006433FA /* Frameworks */,
+				1213BD9B25128BCD006433FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1213BD9F25128BCD006433FA /* PBXTargetDependency */,
+			);
+			name = buechereiTests;
+			productName = buechereiTests;
+			productReference = 1213BD9D25128BCD006433FA /* buechereiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1213BD7D25128BC8006433FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Maik Switalski";
+				TargetAttributes = {
+					1213BD8425128BC8006433FA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1213BD9C25128BCD006433FA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1213BD8425128BC8006433FA;
+					};
+				};
+			};
+			buildConfigurationList = 1213BD8025128BC8006433FA /* Build configuration list for PBXProject "buecherei" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1213BD7C25128BC8006433FA;
+			productRefGroup = 1213BD8625128BC8006433FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1213BD8425128BC8006433FA /* buecherei */,
+				1213BD9C25128BCD006433FA /* buechereiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1213BD8325128BC8006433FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1213BD9625128BCD006433FA /* Main.storyboard in Resources */,
+				1213BD9325128BCD006433FA /* Preview Assets.xcassets in Resources */,
+				1213BD9025128BCD006433FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213BD9B25128BCD006433FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1213BD8125128BC8006433FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1213BD8B25128BC9006433FA /* ContentView.swift in Sources */,
+				1213BD8E25128BC9006433FA /* buecherei.xcdatamodeld in Sources */,
+				1213BD8925128BC9006433FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213BD9925128BCD006433FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1213BDA225128BCD006433FA /* buechereiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1213BD9F25128BCD006433FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1213BD8425128BC8006433FA /* buecherei */;
+			targetProxy = 1213BD9E25128BCD006433FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1213BD9425128BCD006433FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1213BD9525128BCD006433FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1213BDA425128BCD006433FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1213BDA525128BCD006433FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1213BDA725128BCD006433FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = buecherei/buecherei.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"buecherei/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = buecherei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1213BDA825128BCD006433FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = buecherei/buecherei.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"buecherei/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = buecherei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1213BDAA25128BCD006433FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = buechereiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buechereiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buecherei.app/Contents/MacOS/buecherei";
+			};
+			name = Debug;
+		};
+		1213BDAB25128BCD006433FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = buechereiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buechereiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buecherei.app/Contents/MacOS/buecherei";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1213BD8025128BC8006433FA /* Build configuration list for PBXProject "buecherei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213BDA425128BCD006433FA /* Debug */,
+				1213BDA525128BCD006433FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1213BDA625128BCD006433FA /* Build configuration list for PBXNativeTarget "buecherei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213BDA725128BCD006433FA /* Debug */,
+				1213BDA825128BCD006433FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1213BDA925128BCD006433FA /* Build configuration list for PBXNativeTarget "buechereiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213BDAA25128BCD006433FA /* Debug */,
+				1213BDAB25128BCD006433FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1213BD8C25128BC9006433FA /* buecherei.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1213BD8D25128BC9006433FA /* buecherei.xcdatamodel */,
+			);
+			currentVersion = 1213BD8D25128BC9006433FA /* buecherei.xcdatamodel */;
+			path = buecherei.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1213BD7D25128BC8006433FA /* Project object */;
+}
