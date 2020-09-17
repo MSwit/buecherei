@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    
+    
     @IBOutlet weak var onAddEntryClicked: NSButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +24,4 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
-
 }
-
