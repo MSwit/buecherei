@@ -1,0 +1,6 @@
+framework module Pods_buecherei2 {
+  umbrella header "Pods-buecherei2-umbrella.h"
+
+  export *
+  module * { export * }
+}
