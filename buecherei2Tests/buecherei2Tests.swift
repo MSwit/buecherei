@@ -1,15 +1,15 @@
 //
-//  buechereiTests.swift
-//  buechereiTests
+//  buecherei2Tests.swift
+//  buecherei2Tests
 //
 //  Created by Maik Switalski on 16.09.20.
 //  Copyright © 2020 Maik Switalski. All rights reserved.
 //
 
 import XCTest
-@testable import buecherei
+@testable import buecherei2
 
-class buechereiTests: XCTestCase {
+class buecherei2Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

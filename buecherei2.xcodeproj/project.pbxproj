@@ -7,49 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1213BD8925128BC9006433FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BD8825128BC9006433FA /* AppDelegate.swift */; };
-		1213BD8B25128BC9006433FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BD8A25128BC9006433FA /* ContentView.swift */; };
-		1213BD8E25128BC9006433FA /* buecherei.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1213BD8C25128BC9006433FA /* buecherei.xcdatamodeld */; };
-		1213BD9025128BCD006433FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1213BD8F25128BCD006433FA /* Assets.xcassets */; };
-		1213BD9325128BCD006433FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1213BD9225128BCD006433FA /* Preview Assets.xcassets */; };
-		1213BD9625128BCD006433FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1213BD9425128BCD006433FA /* Main.storyboard */; };
-		1213BDA225128BCD006433FA /* buechereiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BDA125128BCD006433FA /* buechereiTests.swift */; };
+		1213BDB925129222006433FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BDB825129222006433FA /* AppDelegate.swift */; };
+		1213BDBB25129222006433FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BDBA25129222006433FA /* ViewController.swift */; };
+		1213BDBE25129222006433FA /* buecherei2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1213BDBC25129222006433FA /* buecherei2.xcdatamodeld */; };
+		1213BDC025129225006433FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1213BDBF25129225006433FA /* Assets.xcassets */; };
+		1213BDC325129225006433FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1213BDC125129225006433FA /* Main.storyboard */; };
+		1213BDCF25129225006433FA /* buecherei2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1213BDCE25129225006433FA /* buecherei2Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1213BD9E25128BCD006433FA /* PBXContainerItemProxy */ = {
+		1213BDCB25129225006433FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1213BD7D25128BC8006433FA /* Project object */;
+			containerPortal = 1213BDAD25129222006433FA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1213BD8425128BC8006433FA;
-			remoteInfo = buecherei;
+			remoteGlobalIDString = 1213BDB425129222006433FA;
+			remoteInfo = buecherei2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1213BD8525128BC8006433FA /* buecherei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buecherei.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1213BD8825128BC9006433FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1213BD8A25128BC9006433FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1213BD8D25128BC9006433FA /* buecherei.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buecherei.xcdatamodel; sourceTree = "<group>"; };
-		1213BD8F25128BCD006433FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1213BD9225128BCD006433FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1213BD9525128BCD006433FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1213BD9725128BCD006433FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1213BD9825128BCD006433FA /* buecherei.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = buecherei.entitlements; sourceTree = "<group>"; };
-		1213BD9D25128BCD006433FA /* buechereiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buechereiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1213BDA125128BCD006433FA /* buechereiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buechereiTests.swift; sourceTree = "<group>"; };
-		1213BDA325128BCD006433FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1213BDB525129222006433FA /* buecherei2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buecherei2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1213BDB825129222006433FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1213BDBA25129222006433FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1213BDBD25129222006433FA /* buecherei2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buecherei2.xcdatamodel; sourceTree = "<group>"; };
+		1213BDBF25129225006433FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1213BDC225129225006433FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1213BDC425129225006433FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1213BDC525129225006433FA /* buecherei2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = buecherei2.entitlements; sourceTree = "<group>"; };
+		1213BDCA25129225006433FA /* buecherei2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buecherei2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1213BDCE25129225006433FA /* buecherei2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buecherei2Tests.swift; sourceTree = "<group>"; };
+		1213BDD025129225006433FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1213BD8225128BC8006433FA /* Frameworks */ = {
+		1213BDB225129222006433FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1213BD9A25128BCD006433FA /* Frameworks */ = {
+		1213BDC725129225006433FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,114 +57,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1213BD7C25128BC8006433FA = {
+		1213BDAC25129222006433FA = {
 			isa = PBXGroup;
 			children = (
-				1213BD8725128BC8006433FA /* buecherei */,
-				1213BDA025128BCD006433FA /* buechereiTests */,
-				1213BD8625128BC8006433FA /* Products */,
+				1213BDB725129222006433FA /* buecherei2 */,
+				1213BDCD25129225006433FA /* buecherei2Tests */,
+				1213BDB625129222006433FA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1213BD8625128BC8006433FA /* Products */ = {
+		1213BDB625129222006433FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1213BD8525128BC8006433FA /* buecherei.app */,
-				1213BD9D25128BCD006433FA /* buechereiTests.xctest */,
+				1213BDB525129222006433FA /* buecherei2.app */,
+				1213BDCA25129225006433FA /* buecherei2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1213BD8725128BC8006433FA /* buecherei */ = {
+		1213BDB725129222006433FA /* buecherei2 */ = {
 			isa = PBXGroup;
 			children = (
-				1213BD8825128BC9006433FA /* AppDelegate.swift */,
-				1213BD8A25128BC9006433FA /* ContentView.swift */,
-				1213BD8F25128BCD006433FA /* Assets.xcassets */,
-				1213BD9425128BCD006433FA /* Main.storyboard */,
-				1213BD9725128BCD006433FA /* Info.plist */,
-				1213BD9825128BCD006433FA /* buecherei.entitlements */,
-				1213BD8C25128BC9006433FA /* buecherei.xcdatamodeld */,
-				1213BD9125128BCD006433FA /* Preview Content */,
+				1213BDB825129222006433FA /* AppDelegate.swift */,
+				1213BDBA25129222006433FA /* ViewController.swift */,
+				1213BDBF25129225006433FA /* Assets.xcassets */,
+				1213BDC125129225006433FA /* Main.storyboard */,
+				1213BDC425129225006433FA /* Info.plist */,
+				1213BDC525129225006433FA /* buecherei2.entitlements */,
+				1213BDBC25129222006433FA /* buecherei2.xcdatamodeld */,
 			);
-			path = buecherei;
+			path = buecherei2;
 			sourceTree = "<group>";
 		};
-		1213BD9125128BCD006433FA /* Preview Content */ = {
+		1213BDCD25129225006433FA /* buecherei2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1213BD9225128BCD006433FA /* Preview Assets.xcassets */,
+				1213BDCE25129225006433FA /* buecherei2Tests.swift */,
+				1213BDD025129225006433FA /* Info.plist */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		1213BDA025128BCD006433FA /* buechereiTests */ = {
-			isa = PBXGroup;
-			children = (
-				1213BDA125128BCD006433FA /* buechereiTests.swift */,
-				1213BDA325128BCD006433FA /* Info.plist */,
-			);
-			path = buechereiTests;
+			path = buecherei2Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1213BD8425128BC8006433FA /* buecherei */ = {
+		1213BDB425129222006433FA /* buecherei2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1213BDA625128BCD006433FA /* Build configuration list for PBXNativeTarget "buecherei" */;
+			buildConfigurationList = 1213BDD325129225006433FA /* Build configuration list for PBXNativeTarget "buecherei2" */;
 			buildPhases = (
-				1213BD8125128BC8006433FA /* Sources */,
-				1213BD8225128BC8006433FA /* Frameworks */,
-				1213BD8325128BC8006433FA /* Resources */,
+				1213BDB125129222006433FA /* Sources */,
+				1213BDB225129222006433FA /* Frameworks */,
+				1213BDB325129222006433FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = buecherei;
-			productName = buecherei;
-			productReference = 1213BD8525128BC8006433FA /* buecherei.app */;
+			name = buecherei2;
+			productName = buecherei2;
+			productReference = 1213BDB525129222006433FA /* buecherei2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1213BD9C25128BCD006433FA /* buechereiTests */ = {
+		1213BDC925129225006433FA /* buecherei2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1213BDA925128BCD006433FA /* Build configuration list for PBXNativeTarget "buechereiTests" */;
+			buildConfigurationList = 1213BDD625129225006433FA /* Build configuration list for PBXNativeTarget "buecherei2Tests" */;
 			buildPhases = (
-				1213BD9925128BCD006433FA /* Sources */,
-				1213BD9A25128BCD006433FA /* Frameworks */,
-				1213BD9B25128BCD006433FA /* Resources */,
+				1213BDC625129225006433FA /* Sources */,
+				1213BDC725129225006433FA /* Frameworks */,
+				1213BDC825129225006433FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1213BD9F25128BCD006433FA /* PBXTargetDependency */,
+				1213BDCC25129225006433FA /* PBXTargetDependency */,
 			);
-			name = buechereiTests;
-			productName = buechereiTests;
-			productReference = 1213BD9D25128BCD006433FA /* buechereiTests.xctest */;
+			name = buecherei2Tests;
+			productName = buecherei2Tests;
+			productReference = 1213BDCA25129225006433FA /* buecherei2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1213BD7D25128BC8006433FA /* Project object */ = {
+		1213BDAD25129222006433FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Maik Switalski";
 				TargetAttributes = {
-					1213BD8425128BC8006433FA = {
+					1213BDB425129222006433FA = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					1213BD9C25128BCD006433FA = {
+					1213BDC925129225006433FA = {
 						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 1213BD8425128BC8006433FA;
+						TestTargetID = 1213BDB425129222006433FA;
 					};
 				};
 			};
-			buildConfigurationList = 1213BD8025128BC8006433FA /* Build configuration list for PBXProject "buecherei" */;
+			buildConfigurationList = 1213BDB025129222006433FA /* Build configuration list for PBXProject "buecherei2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,29 +163,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 1213BD7C25128BC8006433FA;
-			productRefGroup = 1213BD8625128BC8006433FA /* Products */;
+			mainGroup = 1213BDAC25129222006433FA;
+			productRefGroup = 1213BDB625129222006433FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1213BD8425128BC8006433FA /* buecherei */,
-				1213BD9C25128BCD006433FA /* buechereiTests */,
+				1213BDB425129222006433FA /* buecherei2 */,
+				1213BDC925129225006433FA /* buecherei2Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1213BD8325128BC8006433FA /* Resources */ = {
+		1213BDB325129222006433FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1213BD9625128BCD006433FA /* Main.storyboard in Resources */,
-				1213BD9325128BCD006433FA /* Preview Assets.xcassets in Resources */,
-				1213BD9025128BCD006433FA /* Assets.xcassets in Resources */,
+				1213BDC025129225006433FA /* Assets.xcassets in Resources */,
+				1213BDC325129225006433FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1213BD9B25128BCD006433FA /* Resources */ = {
+		1213BDC825129225006433FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,39 +194,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1213BD8125128BC8006433FA /* Sources */ = {
+		1213BDB125129222006433FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1213BD8B25128BC9006433FA /* ContentView.swift in Sources */,
-				1213BD8E25128BC9006433FA /* buecherei.xcdatamodeld in Sources */,
-				1213BD8925128BC9006433FA /* AppDelegate.swift in Sources */,
+				1213BDBB25129222006433FA /* ViewController.swift in Sources */,
+				1213BDBE25129222006433FA /* buecherei2.xcdatamodeld in Sources */,
+				1213BDB925129222006433FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1213BD9925128BCD006433FA /* Sources */ = {
+		1213BDC625129225006433FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1213BDA225128BCD006433FA /* buechereiTests.swift in Sources */,
+				1213BDCF25129225006433FA /* buecherei2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1213BD9F25128BCD006433FA /* PBXTargetDependency */ = {
+		1213BDCC25129225006433FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1213BD8425128BC8006433FA /* buecherei */;
-			targetProxy = 1213BD9E25128BCD006433FA /* PBXContainerItemProxy */;
+			target = 1213BDB425129222006433FA /* buecherei2 */;
+			targetProxy = 1213BDCB25129225006433FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1213BD9425128BCD006433FA /* Main.storyboard */ = {
+		1213BDC125129225006433FA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1213BD9525128BCD006433FA /* Base */,
+				1213BDC225129225006433FA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -246,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1213BDA425128BCD006433FA /* Debug */ = {
+		1213BDD125129225006433FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		1213BDA525128BCD006433FA /* Release */ = {
+		1213BDD225129225006433FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,116 +347,110 @@
 			};
 			name = Release;
 		};
-		1213BDA725128BCD006433FA /* Debug */ = {
+		1213BDD425129225006433FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = buecherei/buecherei.entitlements;
+				CODE_SIGN_ENTITLEMENTS = buecherei2/buecherei2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"buecherei/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = buecherei/Info.plist;
+				INFOPLIST_FILE = buecherei2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		1213BDA825128BCD006433FA /* Release */ = {
+		1213BDD525129225006433FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = buecherei/buecherei.entitlements;
+				CODE_SIGN_ENTITLEMENTS = buecherei2/buecherei2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"buecherei/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = buecherei/Info.plist;
+				INFOPLIST_FILE = buecherei2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		1213BDAA25128BCD006433FA /* Debug */ = {
+		1213BDD725129225006433FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = buechereiTests/Info.plist;
+				INFOPLIST_FILE = buecherei2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = ppm.buechereiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buecherei.app/Contents/MacOS/buecherei";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buecherei2.app/Contents/MacOS/buecherei2";
 			};
 			name = Debug;
 		};
-		1213BDAB25128BCD006433FA /* Release */ = {
+		1213BDD825129225006433FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = buechereiTests/Info.plist;
+				INFOPLIST_FILE = buecherei2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = ppm.buechereiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ppm.buecherei2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buecherei.app/Contents/MacOS/buecherei";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/buecherei2.app/Contents/MacOS/buecherei2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1213BD8025128BC8006433FA /* Build configuration list for PBXProject "buecherei" */ = {
+		1213BDB025129222006433FA /* Build configuration list for PBXProject "buecherei2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1213BDA425128BCD006433FA /* Debug */,
-				1213BDA525128BCD006433FA /* Release */,
+				1213BDD125129225006433FA /* Debug */,
+				1213BDD225129225006433FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1213BDA625128BCD006433FA /* Build configuration list for PBXNativeTarget "buecherei" */ = {
+		1213BDD325129225006433FA /* Build configuration list for PBXNativeTarget "buecherei2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1213BDA725128BCD006433FA /* Debug */,
-				1213BDA825128BCD006433FA /* Release */,
+				1213BDD425129225006433FA /* Debug */,
+				1213BDD525129225006433FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1213BDA925128BCD006433FA /* Build configuration list for PBXNativeTarget "buechereiTests" */ = {
+		1213BDD625129225006433FA /* Build configuration list for PBXNativeTarget "buecherei2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1213BDAA25128BCD006433FA /* Debug */,
-				1213BDAB25128BCD006433FA /* Release */,
+				1213BDD725129225006433FA /* Debug */,
+				1213BDD825129225006433FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -476,17 +458,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1213BD8C25128BC9006433FA /* buecherei.xcdatamodeld */ = {
+		1213BDBC25129222006433FA /* buecherei2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1213BD8D25128BC9006433FA /* buecherei.xcdatamodel */,
+				1213BDBD25129222006433FA /* buecherei2.xcdatamodel */,
 			);
-			currentVersion = 1213BD8D25128BC9006433FA /* buecherei.xcdatamodel */;
-			path = buecherei.xcdatamodeld;
+			currentVersion = 1213BDBD25129222006433FA /* buecherei2.xcdatamodel */;
+			path = buecherei2.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 1213BD7D25128BC8006433FA /* Project object */;
+	rootObject = 1213BDAD25129222006433FA /* Project object */;
 }
